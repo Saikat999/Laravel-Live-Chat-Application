@@ -11,50 +11,50 @@ I built a live chat application using laravel 9 and php 8, javascript, jquery an
 ## There are some steps to follow -
 
 ### Step - 1
-Create a fresh laravel project by using these following command -
-laravel new laravel-chat-application
-or
+Create a fresh laravel project by using these following command - <br />
+laravel new laravel-chat-application <br />
+or <br />
 composer create-project laravel/laravel laravel-chat-application
 
-### Steps - 2
+### Step - 2
 Create  an account in pusher official website and create an app.
 
-### Steps -3
+### Step -3
 Configure .env with pusher app credentials and also change BROADCAST DRIVER log to pusher.
 
-### Steps - 4
-Create an event and make changes in event file. By creating event you need to follow this command -
-php artisan make:event Message
+### Step - 4
+Create an event and make changes in event file. By creating event you need to follow this command - <br />
+php artisan make:event Message <br />
 After then changes the event file 
 
-### Steps - 5
+### Step - 5
 Create a route in web.php file and  add Request Response and Event.
 
-### Steps - 6
+### Step - 6
 Create chat view page in home.blade.php
 
-### Steps - 7
+### Step - 7
 Add required css for chat page in app.css file.
 
-### Steps - 8
-Install npm, pusher js and pusher server by following these command -
-npm install
-npm run dev
-npm install --save laravel-echo pusher-js
+### Step - 8
+Install npm, pusher js and pusher server by following these command - <br />
+npm install <br />
+npm run dev <br />
+npm install --save laravel-echo pusher-js <br />
 composer require pusher/pusher-php-server
 
-### Steps - 9
+### Step - 9
 Make changes in bootstrap.js
 
-### Steps - 10
+### Step - 10
 Write some code for Chat js code in app.js file.
 
-### Steps - 11
+### Step - 11
 Finaly uncomment BroadcastServiceProvider from config/app.php
 
-### Steps - 12
-Run the application by using these commands -
-php artisan serve
+### Step - 12
+Run the application by using these commands - <br />
+php artisan serve <br />
 npm run dev
 
 
